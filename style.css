@@ -7,6 +7,8 @@
 
 body {
   height: 100%;
+  width: 960px;
+  margin: 0 auto;
 }
 
 img {
@@ -15,14 +17,12 @@ img {
 
 #delicious {
   height: 40px;
-  background-color: red;
 }
 
 #logo {
   display: inline-block;
   width: 80%;
   float: left;
-  background-color: blue;
 }
 
 #logo-img {
@@ -39,11 +39,22 @@ img {
   display: inline-block;
   width: 20%;
   float: right;
-  background-color: green;
 }
 
 #social-media img {
   display: inline;
   float: right;
   margin-right: 5px;
+}
+
+#picture-text-heading {
+  display: inline-block;
+  float: left;
+  width: 80%;
+}
+
+#picture-text-print {
+  display: inline-block;
+  float: right;
+  width: 20%;
 }
