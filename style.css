@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+img {
+  width: auto;
+}
+
+#delicious {
+  height: 40px;
+  background-color: red;
+}
+
+#logo {
+  display: inline-block;
+  width: 80%;
+  float: left;
+  background-color: blue;
+}
+
+#logo-img {
+  display: inline-block;
+  width: auto;
+  float: left;
+}
+
+#logo-text{
+  display: inline-block;
+}
+
+#social-media {
+  display: inline-block;
+  width: 20%;
+  float: right;
+  background-color: green;
+}
+
+#social-media img {
+  display: inline;
+  float: right;
+  margin-right: 5px;
+}
