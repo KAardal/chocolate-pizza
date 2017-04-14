@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+
+img {
+  width: auto;
+}
+
+#delicious {
+  height: 40px;
+}
+
+#logo {
+  display: inline-block;
+  width: 80%;
+  float: left;
+}
+
+#logo-img {
+  display: inline-block;
+  width: auto;
+  float: left;
+}
+
+#logo-text{
+  display: inline-block;
+}
+
+#social-media {
+  display: inline-block;
+  width: 20%;
+  float: right;
+}
+
+#social-media img {
+  display: inline;
+  float: right;
+  margin-right: 5px;
+}
+
+#picture-text-heading {
+  display: inline-block;
+  float: left;
+  width: 80%;
+}
+
+#picture-text-print {
+  display: inline-block;
+  float: right;
+  width: 20%;
+}
