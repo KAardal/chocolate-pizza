@@ -58,3 +58,24 @@ img {
   float: right;
   width: 20%;
 }
+
+#picture-text-img img {
+  margin: 0 auto;
+}
+
+#contact-van {
+  display: inline-block;
+  width: auto;
+  float: left;
+}
+
+#contact-text {
+  display: inline-block;
+  width: auto;
+}
+
+#contact-button {
+  display: inline-block;
+  width: 12%;
+  float: right;
+}
