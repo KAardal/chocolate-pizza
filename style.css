@@ -12,7 +12,8 @@ body {
 }
 
 div {
-  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 img {
@@ -28,9 +29,10 @@ li {
 }
 
 .grey {
+  clear: both;
   margin: 15px;
   background: grey;
-  height: 25px;
+  height: 20px;
   width: 100%;
 }
 
@@ -70,6 +72,7 @@ li {
 
 #logo-text{
   display: inline-block;
+  width: auto;
 }
 
 #social-media {
@@ -90,10 +93,11 @@ li {
   width: 80%;
 }
 
-#picture-text-print-icon {
+#picture-text-print-icon, #print-button {
   display: inline-block;
   float: right;
-  width: 20%;
+  width: auto;
+  margin-top: 25px;
 }
 
 #picture-text-img img {
@@ -113,11 +117,15 @@ li {
 
 #contact-button {
   display: inline-block;
+  background-color: orange;
   width: 12%;
   float: right;
 }
 
-#footer img p {
-  display: inline-block;
-  margin: 0 auto;
+#footer {
+  clear: both;
+}
+
+#center-footer {
+  text-align: center;
 }
