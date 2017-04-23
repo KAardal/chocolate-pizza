@@ -28,6 +28,12 @@ li {
   margin: 5px;
 }
 
+button {
+  background-color: orange;
+  color: white;
+  height 25px;
+}
+
 .grey {
   clear: both;
   margin: 15px;
@@ -117,7 +123,6 @@ li {
 
 #contact-button {
   display: inline-block;
-  background-color: orange;
   width: 12%;
   float: right;
 }
