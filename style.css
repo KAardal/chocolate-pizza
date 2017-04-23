@@ -11,11 +11,48 @@ body {
   margin: 0 auto;
 }
 
+div {
+  margin: 5px;
+}
+
 img {
   width: auto;
 }
 
+ul {
+  margin: 25px;
+}
+
+li {
+  margin: 5px;
+}
+
+.grey {
+  margin: 15px;
+  background: grey;
+  height: 25px;
+  width: 100%;
+}
+
+#list {
+  height: 200px;
+  background-image: url("images/list-bg.png");
+}
+
+#ul-left {
+  display: inline-block;
+  width: calc(50% - 10px);
+  float: left;
+}
+
+#ul-right {
+  display: inline-block;
+  width: calc(50% - 10px);
+  float: right;
+}
+
 #delicious {
+  display: block;
   height: 40px;
 }
 
